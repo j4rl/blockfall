@@ -1,0 +1,21 @@
+body{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    height:100vh;
+    box-sizing:border-box;
+  }
+  .box{
+    position:relative;
+    width:500px;
+    height:500px;
+    background: #000;
+  }
+  .block{
+    position:absolute;
+    width:30px;
+    height:30px;
+    background: red;
+  }
